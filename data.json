@@ -1,0 +1,26 @@
+[
+    {
+        "type": "image",
+        "src": "/imagen/foto1.jfif",
+        "title": "Título de la Imagen 01",
+        "description": "Descripción de la Imagen 1. Aquí va más información."
+    },
+    {
+        "type": "image",
+        "src": "/imagen/foto2.jfif",
+        "title": "Título de la Imagen 2",
+        "description": "Descripción de la Imagen 2. Información adicional aquí."
+    },
+    {
+        "type": "video",
+        "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "title": "Título del Video 1",
+        "description": "Descripción del Video 1. Aquí va una breve explicación."
+    },
+    {
+        "type": "video",
+        "src": "/videos/video1.mp4",
+        "title": "Título del Video 2",
+        "description": "Información sobre el contenido."
+    }
+]

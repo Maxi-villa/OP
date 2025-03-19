@@ -1,0 +1,90 @@
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Carrusel */
+.carousel {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+/* Elementos del carrusel */
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-item img,
+.carousel-item video {
+    width: 100%; /* Asegura que se ajusten al ancho del carrusel */
+    max-height: 450px; /* Ajusta la altura máxima para evitar que videos demasiado altos rompan la apariencia */
+    object-fit: cover; /* Esto asegura que los videos se redimensionen correctamente */
+}
+
+/* Ajustes para los videos */
+.carousel-item video {
+    display: block;
+    object-fit: contain; /* Evita cortes en los videos manteniendo su proporción */
+    margin: 0 auto;
+    height: auto;
+    max-height: 450px; /* Mantén el mismo tamaño de altura para todos */
+}
+
+/* Títulos y descripciones */
+.carousel-caption-title {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.carousel-caption-description {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Controles del carrusel */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 5px 10px;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
