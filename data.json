@@ -1,7 +1,7 @@
 [
     {
         "type": "image",
-        "src": "/imagen/foto1.jfif",
+        "src": "/Imagen/foto1.jfif",
         "title": "Título de la Imagen 01",
         "description": "Descripción de la Imagen 1. Aquí va más información."
     },
